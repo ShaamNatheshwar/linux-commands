@@ -1,0 +1,219 @@
+1. how to print which directory I am working on
+pwd
+
+2. how to move from one directory to another
+cd <name of the directory> make sure its present there
+
+3. how to list out the existing files in tht directory
+ls
+
+4. how to clear existing terminal
+clear
+
+5. how to go back from child directory to parent directory
+cd..
+
+6.how to go directly to home directory
+cd
+
+7. how to go many child directories
+cd Documents/file1/
+
+8. how to take input in terminal
+echo hi
+
+9. how to take variables 
+x=10
+echo my age is $x
+
+10. How to get root/ administrator permission
+su
+
+11. How to get out of it
+exit
+
+12. how to switch among users
+su <user name>
+
+13. how to execute single line code as root user
+sudo <ls> maybe other commands too
+
+14. How to list out files from being in root directory
+ls Documents/Folder/ so on...
+
+15. how to get a list of files with more information
+ls -l
+
+16. how to get list of hidden files
+ls -a
+
+17. how to get information about author
+ls -author
+
+18. how to sort entire list by its size
+ls -S
+
+19. how to save output in a txt file
+ls -laS /home/shaam/documents files.txt
+
+20. how to change directory directly to home
+cd ~
+
+21. how to change directory to root directory
+cd /
+
+22. how to go to folder with spaces
+cd "folder name"
+
+23. how to create a file
+cat > filename.txt
+
+24. how to display contents inside it
+cat filename.txt
+
+25. how to concatanate files
+cat filename.txt >> filename2.txt
+
+26. how to add line numbers to nonblank lines
+cat -b filename.txt
+
+27. how to add line numbers to all lines
+cat -n filename.txt
+
+28. how to squeeze all the blank lines into one
+cat -s filename.txt
+
+29. how to add $ too lines at the end
+cat -E filename.txt
+
+30. how to search for a string
+grep <search string> file name
+
+31 how to do case insensitive search
+grep -i <search string> file name
+
+32 how to get index at which string is located
+grep -n <search string> file name
+
+33. how to get results of line that doesn't match a string
+grep -v <search string> file name
+
+34. how to get total number of strings that match query
+grep -c <search string> file name
+
+35. how to sort things alphabetically
+sort filename
+
+36. how to sort many files 
+sort filename filename
+
+37. how to sort in reverse order
+sort -r filename
+
+38. how to sort case insensitive
+sort -f file name
+
+39. how to get numerical sort
+
+sort -n filename
+
+40. how to use multiple commands
+grep dh filname | sort
+
+41. how to copy a file
+cp file name /home/shaam/Documents/
+
+42. how to not over ride the file
+cp -n filename /home/shaam/Documents/
+
+43. how to get into interactive mode before copying
+cp -i filename /home/shaam/Documents/
+
+
+44. how to do copying only if source file is different
+cp -u filename /home/shaam/Documents/
+
+45. how to copy even hidden files
+cp -R filename /home/shaam/Documents/
+
+46. how to copy via showing the progress
+cp -v filename /home/shaam/Documents/
+
+47. how to move things
+mv <options> filename /home/shaam/Documets
+
+48. how to copy all the text files
+cp *.txt /home/shaam/Documents/
+
+49. how to make a directory folder
+mkdir folder name
+
+50. how to make multiple folders
+mkdirl folder1 folder2
+
+51. how to have subsets of folders
+mkdir folder1/folder2
+mkdir -p f2/{folder1, folder2}
+
+52. for removing parent and child directory
+rmdir -p
+
+53. for removing directory with verbose
+rmdir -pv filename
+
+54. for removing non empty folders
+rm -r filename
+
+55. for removing non empty folder with parents
+rm -rv filename
+
+56. how to change the access permission
+chmod g+wx,u=wx, o-wx filename note we will use , for only this
+
+57 chage user and group file name
+chown shaam filename : gohan filename
+
+58 compressing a file name
+tar -cvf nameOfTheFile whichFile
+
+59 extracting files
+tar -xvf fileName
+
+60. print env variables all
+printenv
+
+61. print home route way
+echo $HOME, $PATH, $HOSTNAME, $USERNAME, $LANG, $BASH_VERSION
+
+62. HOW TO CHANGE EV VARIABLE
+sudo gedit .bashrc
+
+63. How to create user
+sudo useradd <name>
+
+64. how to give user password
+sude userpwd <password>
+
+65. how to delete 
+sudo userdel <delete>
+
+66. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
